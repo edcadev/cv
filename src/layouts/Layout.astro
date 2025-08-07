@@ -1,3 +1,8 @@
+---
+// Supports weights 100-900
+import "@fontsource-variable/inter";
+---
+
 <!doctype html>
 <html lang="es">
   <head>
@@ -13,50 +18,38 @@
 </html>
 
 <style is:global>
-  html {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-
-    font-family:
-      Menlo,
-      Monaco,
-      Lucida Console,
-      "Courier New",
-      Courier,
-      monospace;
-    background: #fff;
-    letter-spacing: -0.025rem;
-  }
-
-  body,
-  figure {
-    margin: 0;
-    padding: 0;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  *,
-  *:before,
-  *:after {
+  /* 2024 CSS Reset */
+  * {
+    /* Include padding and border in size calculation. */
     box-sizing: border-box;
+    /* Prevent grid and flex items form spilling out of their container. */
+    min-width: 0;
+  }
+
+  body {
+    /* Ensure that the body fills the entire viewport. */
+    min-height: 100dvh;
   }
 
   h1,
   h2,
   h3,
   h4 {
-    margin: 0;
+    /* Balance headings across multiple lines into an even block. */
+    text-wrap: balance;
+  }
+
+  p {
+    /* Prevent text orphans (single words on last line). */
+    text-wrap: pretty;
+  }
+  /* 2024 CSS Reset */
+
+  html {
+    background-color: #fff;
+    letter-spacing: 0.025rem;
     font-family:
+      Inter,
       system-ui,
       -apple-system,
       BlinkMacSystemFont,
@@ -70,11 +63,21 @@
       sans-serif;
   }
 
-  p {
-    color: #666;
-    font-size: 0.9rem;
-    line-height: 1.5;
+  body,
+  figure {
     margin: 0;
+    padding: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  ul {
     text-wrap: pretty;
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 </style>
