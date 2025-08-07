@@ -1,7 +1,7 @@
 {
   "basics": {
-    "name": "Kevin Eduardo Chuquilin Cabanillas",
-    "label": "Desarrollador Frontend/FullStack",
+    "name": "Eduardo Cabanillas",
+    "label": "Bachiller en Ingeniería de Sistemas orientado al diseño y desarrollo UI/UX.",
     "image": "https://media.licdn.com/dms/image/v2/C4D03AQGnlMDZ09waoA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1655635691382?e=1757548800&v=beta&t=E0K5u09dXM7_Dn2m8YxlFaGQ0X47KbEc6XSnOxjt-Es",
     "email": "kchuquilinc@gmail.com",
     "phone": "+51 918 486 182",
@@ -12,18 +12,19 @@
       "postalCode": "",
       "city": "Cajamarca",
       "countryCode": "PE",
-      "country": "Perú"
+      "country": "Perú",
+      "link": "https://www.google.com/maps/place/Cajamarca"
     },
     "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "edcadev",
-        "url": "https://linkedin.com/in/edcadev"
-      },
       {
         "network": "GitHub",
         "username": "edcadev",
         "url": "https://github.com/edcadev"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "edcadev",
+        "url": "https://linkedin.com/in/edcadev"
       },
       {
         "network": "X",
