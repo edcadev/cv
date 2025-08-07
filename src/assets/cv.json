@@ -1,119 +1,192 @@
 {
   "basics": {
-    "name": "John Doe",
-    "label": "Programmer",
-    "image": "",
-    "email": "john@gmail.com",
-    "phone": "(912) 555-4321",
-    "url": "https://johndoe.com",
-    "summary": "A summary of John Doe…",
+    "name": "Kevin Eduardo Chuquilin Cabanillas",
+    "label": "Desarrollador Frontend/FullStack",
+    "image": "https://media.licdn.com/dms/image/v2/C4D03AQGnlMDZ09waoA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1655635691382?e=1757548800&v=beta&t=E0K5u09dXM7_Dn2m8YxlFaGQ0X47KbEc6XSnOxjt-Es",
+    "email": "kchuquilinc@gmail.com",
+    "phone": "+51 918 486 182",
+    "url": "https://linkedin.com/in/edcadev",
+    "summary": "Bachiller en Ingeniería de Sistemas con especialización en desarrollo frontend y fullstack, con enfoque en diseño y desarrollo de interfaces de usuario (UI) y experiencia de usuario (UX). Destaco por mi capacidad para crear soluciones tecnológicas centradas en el usuario que optimizan procesos y mejoran la experiencia digital. Reconocido ganador de múltiples hackathons y concursos de programación, demostrando excelentes habilidades en programación, resolución de problemas, y trabajo en equipo bajo presión.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "",
+      "postalCode": "",
+      "city": "Cajamarca",
+      "countryCode": "PE",
+      "region": "Cajamarca"
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "john",
-        "url": "https://twitter.com/john"
+        "network": "LinkedIn",
+        "username": "edcadev",
+        "url": "https://linkedin.com/in/edcadev"
+      },
+      {
+        "network": "GitHub",
+        "username": "edcadev",
+        "url": "https://github.com/edcadev"
       }
     ]
   },
   "work": [
     {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": ["Started the company"]
-    }
-  ],
-  "volunteer": [
+      "name": "Academia José Sabogal",
+      "position": "Desarrollador Frontend",
+      "url": "",
+      "startDate": "2023-03-01",
+      "endDate": "",
+      "summary": "Desarrollo de plataforma educativa integral con tecnologías modernas",
+      "highlights": [
+        "Lideré el análisis y evaluación de stack tecnológico, seleccionando Next.js/Nest.js, resultando en 40% reducción en tiempo de desarrollo y 35% en costos de mantenimiento",
+        "Implementamos plataforma educativa que mejoró el acceso a recursos para estudiantes en más de 90%, reduciendo tiempo de búsqueda de materiales en 75%",
+        "Desarrollé interfaces responsivas con React.js/Next.js incrementando la satisfacción del usuario en 80%",
+        "Creé dashboard administrativo que optimizó la gestión de matrículas, reduciendo tiempo administrativo en más de 60%",
+        "Implementé mejoras de rendimiento aumentando la velocidad de carga del sitio en 45%"
+      ]
+    },
     {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
+      "name": "Frutaliss",
+      "position": "Desarrollador Frontend/FullStack (Freelance)",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "Diseño e implementación de sistema de ventas local completo",
+      "highlights": [
+        "Diseñé e implementé sistema de ventas completo utilizando HTML5, CSS3, Styled Components, JavaScript, React.js, Node.js y MySQL",
+        "Desarrollé módulos de gestión de inventario reduciendo errores de stock en 85% y aumentando precisión de reportes en 95%",
+        "Optimicé el proceso de pedidos, reduciendo tiempo de procesamiento en 70% y mejorando la experiencia de compra"
+      ]
     }
   ],
+  "volunteer": [],
   "education": [
     {
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
-      "courses": ["DB1101 - Basic SQL"]
+      "institution": "Universidad Nacional de Cajamarca",
+      "url": "",
+      "area": "Ingeniería de Sistemas",
+      "studyType": "Bachiller",
+      "startDate": "",
+      "endDate": "2024-08-01",
+      "score": "",
+      "courses": []
     }
   ],
   "awards": [
     {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
+      "title": "2do lugar - Hackathon Innovatec",
+      "date": "2024-01-01",
+      "awarder": "Cámara de Comercio de Cajamarca",
+      "summary": "Proyecto KAI - Educación Digital con IA"
+    },
+    {
+      "title": "3er lugar - Hackathon Impulsa Cajamarca",
+      "date": "2021-01-01",
+      "awarder": "Gobierno Regional de Cajamarca",
+      "summary": "Proyecto Cafetos - Plataforma para Cafeteros"
     }
   ],
   "certificates": [
     {
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
-    }
-  ],
-  "publications": [
+      "name": "Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL",
+      "date": "",
+      "issuer": "Udemy",
+      "url": "",
+      "hours": "83 horas"
+    },
     {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": "Diseño UX: experiencia de usuario UX/UI + Figma",
+      "date": "",
+      "issuer": "Udemy",
+      "url": "",
+      "hours": "23 horas"
     }
   ],
+  "publications": [],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "name": "Lenguajes de Programación",
+      "level": "",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "Java",
+        "C#",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Frontend Development",
+      "level": "",
+      "keywords": [
+        "HTML5",
+        "CSS3",
+        "React.js",
+        "Next.js",
+        "Angular",
+        "Tailwind CSS",
+        "Shadcn UI",
+        "Styled Components"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "",
+      "keywords": [
+        "Node.js",
+        "Nest.js",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Firebase"
+      ]
+    },
+    {
+      "name": "Herramientas y DevOps",
+      "level": "",
+      "keywords": ["Git", "GitHub", "Docker", "NPM", "PNPM", "Linux"]
+    },
+    {
+      "name": "State Management",
+      "level": "",
+      "keywords": ["Zustand"]
     }
   ],
   "languages": [
     {
-      "language": "English",
-      "fluency": "Native speaker"
-    }
-  ],
-  "interests": [
+      "language": "Español",
+      "fluency": "Nativo"
+    },
     {
-      "name": "Wildlife",
-      "keywords": ["Ferrets", "Unicorns"]
+      "language": "Inglés",
+      "fluency": "Básico-Intermedio (B1)"
     }
   ],
-  "references": [
-    {
-      "name": "Jane Doe",
-      "reference": "Reference…"
-    }
-  ],
+  "interests": [],
+  "references": [],
   "projects": [
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
+      "name": "KAI - Educación Digital con IA",
+      "startDate": "2024-01-01",
+      "endDate": "2024-01-01",
+      "description": "Solución que digitalizó procesos educativos reduciendo el uso de papel con integración de APIs de inteligencia artificial para personalización de contenidos educativos",
+      "highlights": [
+        "2do lugar en Hackathon Innovatec - Cámara de Comercio de Cajamarca 2024",
+        "Implementación con React.js, Next.js, Shadcn UI, Tailwind CSS, Node.js, MySQL, OpenAI API",
+        "Diseño de interfaces, implementación de componentes reusables y optimización de rendimiento"
+      ],
+      "url": ""
+    },
+    {
+      "name": "Cafetos - Plataforma para Cafeteros",
+      "startDate": "2021-01-01",
       "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/"
+      "description": "Plataforma que conecta a productores de café con compradores directos",
+      "highlights": [
+        "3er lugar en Hackathon Impulsa Cajamarca - Gobierno Regional de Cajamarca 2021",
+        "Diseño de propuesta utilizando Figma y Canva"
+      ],
+      "url": ""
     }
   ]
 }
