@@ -1,0 +1,26 @@
+---
+const { href, title, icon } = Astro.props;
+const Icon = icon;
+---
+
+<a href={href} title={title} target="_blank" rel="noopener noreferrer">
+  <Icon />
+</a>
+
+<style>
+  a {
+    width: 2rem;
+    height: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+
+  a:hover {
+    background-color: #f3f4f6;
+  }
+</style>
