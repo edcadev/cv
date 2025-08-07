@@ -5,7 +5,7 @@
     "image": "https://media.licdn.com/dms/image/v2/C4D03AQGnlMDZ09waoA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1655635691382?e=1757548800&v=beta&t=E0K5u09dXM7_Dn2m8YxlFaGQ0X47KbEc6XSnOxjt-Es",
     "email": "kchuquilinc@gmail.com",
     "phone": "+51 918 486 182",
-    "url": "https://linkedin.com/in/edcadev",
+    "url": "https://edca.dev",
     "summary": "Bachiller en Ingeniería de Sistemas con especialización en desarrollo frontend y fullstack, con enfoque en diseño y desarrollo de interfaces de usuario (UI) y experiencia de usuario (UX). Destaco por mi capacidad para crear soluciones tecnológicas centradas en el usuario que optimizan procesos y mejoran la experiencia digital. Reconocido ganador de múltiples hackathons y concursos de programación, demostrando excelentes habilidades en programación, resolución de problemas, y trabajo en equipo bajo presión.",
     "location": {
       "address": "",
@@ -24,6 +24,11 @@
         "network": "GitHub",
         "username": "edcadev",
         "url": "https://github.com/edcadev"
+      },
+      {
+        "network": "X",
+        "username": "edcadev",
+        "url": "https://x.com/edcadev"
       }
     ]
   },
@@ -31,9 +36,9 @@
     {
       "name": "Academia José Sabogal",
       "position": "Desarrollador Frontend",
-      "url": "",
+      "url": "https://academiajosesabogal.com/",
       "startDate": "2023-03-01",
-      "endDate": "",
+      "endDate": null,
       "summary": "Desarrollo de plataforma educativa integral con tecnologías modernas",
       "highlights": [
         "Lideré el análisis y evaluación de stack tecnológico, seleccionando Next.js/Nest.js, resultando en 40% reducción en tiempo de desarrollo y 35% en costos de mantenimiento",
@@ -41,19 +46,34 @@
         "Desarrollé interfaces responsivas con React.js/Next.js incrementando la satisfacción del usuario en 80%",
         "Creé dashboard administrativo que optimizó la gestión de matrículas, reduciendo tiempo administrativo en más de 60%",
         "Implementé mejoras de rendimiento aumentando la velocidad de carga del sitio en 45%"
+      ],
+      "badges": [
+        "Remote",
+        "Next.js",
+        "Nest.js",
+        "TypeScript",
+        "Styled Components"
       ]
     },
     {
       "name": "Frutaliss",
-      "position": "Desarrollador Frontend/FullStack (Freelance)",
+      "position": "Desarrollador Frontend/FullStack",
       "url": "",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2022-07-09",
+      "endDate": "2023-08-20",
       "summary": "Diseño e implementación de sistema de ventas local completo",
       "highlights": [
         "Diseñé e implementé sistema de ventas completo utilizando HTML5, CSS3, Styled Components, JavaScript, React.js, Node.js y MySQL",
         "Desarrollé módulos de gestión de inventario reduciendo errores de stock en 85% y aumentando precisión de reportes en 95%",
         "Optimicé el proceso de pedidos, reduciendo tiempo de procesamiento en 70% y mejorando la experiencia de compra"
+      ],
+      "badges": [
+        "Freelance",
+        "React",
+        "Node.js",
+        "JavaScript",
+        "MySQL",
+        "Styled Components"
       ]
     }
   ],
@@ -64,7 +84,7 @@
       "url": "",
       "area": "Ingeniería de Sistemas",
       "studyType": "Bachiller",
-      "startDate": "",
+      "startDate": "2017-03-01",
       "endDate": "2024-08-01",
       "score": "",
       "courses": []
