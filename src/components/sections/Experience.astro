@@ -1,5 +1,220 @@
 ---
-import Section from "@components/Section.astro";
+import Section from "../Section.astro";
+import Badge from "@components/ui/Badge.astro";
+
+import { work } from "@cv";
 ---
 
-<Section title="Experience" />
+<Section title="Experiencia laboral">
+  <div class="feed" role="feed" aria-labelledby="work-experience">
+    {
+      work.map(
+        ({
+          name,
+          startDate,
+          endDate,
+          position,
+          summary,
+          highlights,
+          url,
+          badges,
+        }) => {
+          const startYear = new Date(startDate).getFullYear();
+          const endYear =
+            endDate != null ? new Date(endDate).getFullYear() : "Actual";
+
+          return (
+            <article>
+              <header>
+                <div class="title-row">
+                  <h3>
+                    <a
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`${name} sitio web`}
+                    >
+                      {name}
+                    </a>
+                    {badges && badges.length > 0 && (
+                      <ul
+                        class="badges badges--desktop"
+                        aria-label="Tecnologías usadas"
+                      >
+                        {badges.map((badge) => (
+                          <li>
+                            <Badge label={badge} />
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </h3>
+                  <div
+                    class="period"
+                    title={`Período: ${startDate} – ${endDate ?? "Actual"}`}
+                  >
+                    {startYear} – {endYear}
+                  </div>
+                </div>
+                <h4>{position}</h4>
+              </header>
+
+              <div class="content">
+                <p>{summary}</p>
+                {highlights && highlights.length > 0 && (
+                  <ul class="highlights">
+                    {highlights.map((highlight) => (
+                      <li>{highlight}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+
+              {badges && badges.length > 0 && (
+                <ul
+                  class="badges badges--mobile"
+                  aria-label="Tecnologías usadas"
+                >
+                  {badges.map((badge) => (
+                    <li>
+                      <Badge label={badge} />
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </article>
+          );
+        },
+      )
+    }
+  </div>
+</Section>
+
+<style>
+  .feed {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  /* ── Header ── */
+
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .title-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  h3 {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+    color: #111;
+  }
+
+  h3 a {
+    color: inherit;
+  }
+
+  h3 a:hover {
+    text-decoration: underline;
+  }
+
+  h4 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: Menlo, Monaco, "Lucida Console", "Courier New", monospace;
+    color: #222;
+    line-height: 1;
+  }
+
+  .period {
+    font-size: 0.85rem;
+    color: #666;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+    cursor: default;
+  }
+
+  /* ── Content ── */
+
+  .content {
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .content p {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.5;
+    text-wrap: pretty;
+  }
+
+  .highlights {
+    list-style: disc;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 0;
+  }
+
+  .highlights li {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.7);
+    line-height: 1.4;
+  }
+
+  /* ── Badges ── */
+
+  .badges {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    list-style: none;
+    padding: 0;
+  }
+
+  .badges li {
+    list-style: none;
+  }
+
+  /* desktop badges: inline with company name */
+  .badges--desktop {
+    display: none;
+  }
+
+  /* mobile badges: below content */
+  .badges--mobile {
+    display: flex;
+    margin-top: 4px;
+  }
+
+  @media (width > 700px) {
+    .badges--desktop {
+      display: inline-flex;
+    }
+
+    .badges--mobile {
+      display: none;
+    }
+  }
+</style>
