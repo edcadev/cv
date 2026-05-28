@@ -2,7 +2,7 @@
   "basics": {
     "name": "Eduardo Cabanillas",
     "label": "Bachiller en Ingeniería de Sistemas orientado al diseño y desarrollo UI/UX.",
-    "image": "https://media.licdn.com/dms/image/v2/C4D03AQGnlMDZ09waoA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1655635691382?e=1757548800&v=beta&t=E0K5u09dXM7_Dn2m8YxlFaGQ0X47KbEc6XSnOxjt-Es",
+    "image": "/me.webp",
     "email": "kchuquilinc@gmail.com",
     "phone": "+51 918 486 182",
     "url": "https://edca.dev",
@@ -48,13 +48,7 @@
         "Creé dashboard administrativo que optimizó la gestión de matrículas, reduciendo tiempo administrativo en más de 60%",
         "Implementé mejoras de rendimiento aumentando la velocidad de carga del sitio en 45%"
       ],
-      "badges": [
-        "Remote",
-        "Next.js",
-        "Nest.js",
-        "TypeScript",
-        "Styled Components"
-      ]
+      "badges": ["Remote", "Next.js", "Nest.js", "TypeScript"]
     },
     {
       "name": "Frutaliss",
@@ -68,14 +62,7 @@
         "Desarrollé módulos de gestión de inventario reduciendo errores de stock en 85% y aumentando precisión de reportes en 95%",
         "Optimicé el proceso de pedidos, reduciendo tiempo de procesamiento en 70% y mejorando la experiencia de compra"
       ],
-      "badges": [
-        "Freelance",
-        "React",
-        "Node.js",
-        "JavaScript",
-        "MySQL",
-        "Styled Components"
-      ]
+      "badges": ["Freelance", "React", "Node.js", "JavaScript", "MySQL"]
     }
   ],
   "volunteer": [],
@@ -193,8 +180,15 @@
       "description": "Solución que digitalizó procesos educativos reduciendo el uso de papel con integración de APIs de inteligencia artificial para personalización de contenidos educativos",
       "highlights": [
         "2do lugar en Hackathon Innovatec - Cámara de Comercio de Cajamarca 2024",
-        "Implementación con React.js, Next.js, Shadcn UI, Tailwind CSS, Node.js, MySQL, OpenAI API",
         "Diseño de interfaces, implementación de componentes reusables y optimización de rendimiento"
+      ],
+      "techStack": [
+        "React.js",
+        "Next.js",
+        "Shadcn UI",
+        "Tailwind CSS",
+        "Node.js",
+        "MySQL"
       ],
       "url": ""
     },
@@ -207,6 +201,7 @@
         "3er lugar en Hackathon Impulsa Cajamarca - Gobierno Regional de Cajamarca 2021",
         "Diseño de propuesta utilizando Figma y Canva"
       ],
+      "techStack": ["Figma", "Canva"],
       "url": ""
     }
   ]

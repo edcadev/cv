@@ -1,6 +1,7 @@
 ---
 import { Image } from "astro:assets";
 import { basics } from "@cv";
+import meImage from "@assets/me.webp";
 
 import Section from "@components/Section.astro";
 import WorldMap from "@assets/icons/WorldMap.astro";
@@ -83,7 +84,7 @@ const SOCIAL_ICONS: Record<string, any> = {
     </div>
 
     <div class="image">
-      <Image src={image} alt="{name}" inferSize />
+      <Image src={meImage} alt={name} width={400} height={400} />
     </div>
   </div>
 </Section>
