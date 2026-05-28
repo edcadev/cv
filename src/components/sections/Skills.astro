@@ -1,5 +1,125 @@
 ---
+import { skills } from "@cv";
 import Section from "@components/Section.astro";
+
+import Angular from "@assets/icons/angular.astro";
+import CSharp from "@assets/icons/csharp.astro";
+import CSS from "@assets/icons/css.astro";
+import Docker from "@assets/icons/docker.astro";
+import Firebase from "@assets/icons/firebase.astro";
+import Git from "@assets/icons/git.astro";
+import GitHub from "@assets/icons/GitHub.astro";
+import HTML from "@assets/icons/html.astro";
+import Java from "@assets/icons/java.astro";
+import JavaScript from "@assets/icons/javascript.astro";
+import Linux from "@assets/icons/linux.astro";
+import Mongodb from "@assets/icons/mongodb.astro";
+import MySQL from "@assets/icons/sql.astro";
+import Nest from "@assets/icons/nest.astro";
+import Next from "@assets/icons/next.astro";
+import Node from "@assets/icons/node.astro";
+import Npm from "@assets/icons/npm.astro";
+import PHP from "@assets/icons/php.astro";
+import PNPM from "@assets/icons/pnpm.astro";
+import Postgresql from "@assets/icons/postgresql.astro";
+import Python from "@assets/icons/python.astro";
+import React from "@assets/icons/react.astro";
+import Shadcn from "@assets/icons/shadcn.astro";
+import Tailwind from "@assets/icons/tailwind.astro";
+import TypeScript from "@assets/icons/typescript.astro";
+import Zustand from "@assets/icons/zustand.astro";
+
+const SKILL_ICONS: Record<string, any> = {
+  "C#": CSharp,
+  "Nest.js": Nest,
+  "Next.js": Next,
+  "Node.js": Node,
+  "React.js": React,
+  "Shadcn UI": Shadcn,
+  "Tailwind CSS": Tailwind,
+  Angular,
+  CSS3: CSS,
+  Docker,
+  Firebase,
+  Git,
+  GitHub,
+  HTML5: HTML,
+  Java,
+  JavaScript,
+  Linux,
+  MongoDB: Mongodb,
+  MySQL,
+  NPM: Npm,
+  PHP,
+  PNPM,
+  PostgreSQL: Postgresql,
+  Python,
+  SQL: MySQL,
+  TypeScript,
+  Zustand,
+};
 ---
 
-<Section title="Skills" />
+<Section title="Skills">
+  <div class="skills-grid">
+    {
+      skills.map(({ name, keywords }) => (
+        <div class="category">
+          <h3>{name}</h3>
+          <ul>
+            {keywords.map((keyword) => {
+              const Icon = SKILL_ICONS[keyword];
+              return (
+                <li>
+                  {Icon && <Icon />}
+                  <span>{keyword}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      ))
+    }
+  </div>
+</Section>
+
+<style>
+  .skills-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  h3 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #666;
+    margin-bottom: 8px;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: #eee;
+    border-radius: 6px;
+    color: black;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.2rem 0.6rem;
+  }
+
+  li :global(svg) {
+    width: 1rem;
+    height: 1rem;
+    flex-shrink: 0;
+  }
+</style>

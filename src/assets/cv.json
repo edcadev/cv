@@ -113,15 +113,7 @@
     {
       "name": "Lenguajes de Programación",
       "level": "",
-      "keywords": [
-        "JavaScript",
-        "TypeScript",
-        "PHP",
-        "Java",
-        "C#",
-        "Python",
-        "SQL"
-      ]
+      "keywords": ["JavaScript", "TypeScript", "PHP", "Java", "C#", "Python"]
     },
     {
       "name": "Frontend Development",
@@ -133,8 +125,7 @@
         "Next.js",
         "Angular",
         "Tailwind CSS",
-        "Shadcn UI",
-        "Styled Components"
+        "Shadcn UI"
       ]
     },
     {
